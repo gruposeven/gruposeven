@@ -5,3 +5,5 @@ Inclusão dos arquivos index.html e style.css
 Inclusão pasta imagens e arquivo de logotipo
 
 Inclusão pasta e arquivo Javascript
+
+Criado arquivo de .gitignore
