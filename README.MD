@@ -1,9 +1,13 @@
-Inicio versão 1.0 Sistema Grupo Seven Brasil
+Inicio do Sistema Grupo Seven Brasil
 
-Inclusão dos arquivos index.html e style.css
+Criação Bibliotecas Java, imagens iniciais de icones e logotipo 
 
-Inclusão pasta imagens e arquivo de logotipo
+Criação modelo <Head>
 
-Inclusão pasta e arquivo Javascript
+Configuração inicial do .gitignore
 
-Criado arquivo de .gitignore
+Criação Index e Style para Página "Em Implantação"
+
+Publicar em 25 de Abril de 2018 no site www.gruposeven.org 
+
+ 
