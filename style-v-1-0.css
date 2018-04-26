@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	text-align: center;	
+	font-size: 14px;
+	font-family: "Lato, Helvedica, Arial";
+	background-color: #373f42;
+	color:#fff;
+	line-height: 1.3;
+
+}
+.divfundo{
+	margin: auto;
+	background-color: #fff;
+	max-width: 320px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.divlogo{
+	background-color: #fff;
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 120px;
+	width: 100%;
+}
+.logo{
+	height: 80px;
+}
+.divbox{
+	margin: auto;
+	max-width: 200px;
+
+	background-color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+	width: 100%;
+
+}
+form{
+	color: black;
+	font-family: "Lato";
+	text-align: left;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-bottom: 30px;
+
+}
+input{
+	width: 250px;
+	border-radius: 5px;
+
+}
+.botao{
+	height: 30px;
+	width: 100px;
+	font-weight: bold;
+}
+.rodape{
+	margin: auto;
+	max-width: 320px;
+	width: 100%;
+	text-align: center;
+	color: white;
+}

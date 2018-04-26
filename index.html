@@ -3,16 +3,37 @@
 		<title>Grupo Seven Brasil</title>
 		<meta charset="UTF-8">
 		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style-v-1-0.css">
 		<link rel="stylesheet" type="text/css" href="biblioteca/normalize.css">
 		<link rel="shortcut icon" type="text/css" href="imagens/sistema.ico">
 		<script type="text/javascript" src="script/script.js"></script>
 		<script type="text/javascript" src="biblioteca/jquery-3.2.1.min.js"></script>
 
 		<body>
-			<img class="imglogo"src="imagens/logog7.png"><br><br>
-			<h1> Sistema em Implantação </h1>
-					
+			<div class="divfundo">
+				<div class="divlogo">
+						<img class="logo" src="imagens/logog7.png">
+				</div>
+				<div class"divbox">
+					<form method="POST" action="autenticacao">
+
+						Usuário:<br>
+						<input type="number" required placeholder="Informe seu CPF" maxlength="11" autofocus autocomplete ="off"><br><br>
+						Senha:<br>
+					 	<input type="password" required placeholder="Senha de 4 digitos" maxlength="4" autofocus autocomplete ="off"><br><br>
+						<input type="submit" class="botao" value="Entrar">
+						<a href=""> Esqueci a senha </a>
+
+
+
+					</form>
+				</div>
+
+			</div>
+			<div class="rodape">
+					<h4>@Grupo Seven Brasil<br>Todos os direitos reservados</h4>	
+					Brasília: (61) 30451945 / São Paulo (11) 3214-3302 
+				</div>	
 		</body>
 	</head>
 
