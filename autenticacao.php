@@ -24,12 +24,13 @@
 						<input type="submit" class="botao" value="Entrar">
 						<a href="esqueci.php"> Esqueci a senha </a>
 
-
-
 					</form>
 				</div>
-
-			</div>
+				</div>
+				<div class="error">
+					Erro na autenticação - Tente novamente 
+				</div>	
+			
 			<div class="rodape">
 					<h4>@Grupo Seven Brasil<br>Todos os direitos reservados</h4>	
 					Brasília: (61) 3045-1945 / São Paulo (11) 3214-3302 
