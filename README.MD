@@ -14,6 +14,9 @@ Implantação versão 1.0 do sistema
  9 - A providenciar: Após a configuração pelo Google, configurar pesquisa personalizada no Google AdSense e projeto3
  10 - A providenciar: colocar os links no Topo1
  11 - Criação Widget no Corpo INT 1 3 e 4 
- 12 - Criação do Rodapé e sua respectiva responsividade 
+ 12 - Criação do Rodapé e sua respectiva responsividade
+
+ 13 - Projeto fechado temporariamente para a criação do projeto G7 Principal
+ 
  
  
