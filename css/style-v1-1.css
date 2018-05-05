@@ -1,0 +1,113 @@
+body{
+	background-image: url('../imagens/banner2.jpg');
+	background-position: center;
+	background-size:cover;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.body_autenticacao{
+	background-color: #FAFAFA;
+	width: 300px;
+	height: 400px;
+	border: 2px solid black;
+	box-shadow: 0px 0px 10px black;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+
+
+}
+.body_autenticacao_inicio{
+flex:1;
+}
+.body_autenticacao_inicio img{
+	width: 150px;
+}
+.body_autenticacao_meio{
+	flex:2;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+
+
+}
+.body_autenticacao_meio form{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding: 10px;
+	margin: 0;
+}
+.autenticacao_campo{
+	border: 2px solid black;
+	height: 30px;
+}
+.autenticacao_submit{
+	background-color: black;
+	color: white;
+	background-image: url('../imagens/cadeado.png');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 10px;
+	width: 100px;
+	height: 40px;
+	text-align: right;
+	border-radius: 10px; 
+
+}
+.body_autenticacao_fim{
+flex:1;
+background-color: #F2F2F2;
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+width: 300px;
+}
+	.body_autenticacao_fim_direito{
+	flex:1;
+	}
+		.body_autenticacao_fim_direito img{
+			height: 100px;
+		}
+	.body_autenticacao_fim_esquerdo{
+	flex:4;
+	background-color: #F2F2F2;
+	text-align: center;
+	}
+.body_opcoes{
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+
+}
+.body_opcoes button{
+	background-color: #0404B4;
+	color: white;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 10px;
+	width: 130px;
+	height: 40px;
+	text-align: right;
+	border-radius: 10px;
+	border: 2px solid black;
+	font-size: 14px; 
+
+}
+.body_opcoes_novo{
+background-image: url('../imagens/novocadastro.png');
+	
+}
+.body_opcoes_esqueci{
+background-image: url('../imagens/esqueci.png');
+	
+}
