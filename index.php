@@ -23,7 +23,7 @@
 						<input type"text" name="usuario" class="autenticacao_campo"><br>
 						<input type"password" name="senha" class="autenticacao_campo"><br>
 					
-						<input type="submit" class="autenticacao_submit" value="Autenticar">
+						<input type="submit" class="autenticacao_submit" value="Entrar">
 					</form>
 				</div>
 				<div class="body_autenticacao_fim">
