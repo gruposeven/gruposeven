@@ -73,6 +73,16 @@
 		var mensagemCadastroCPF ="<h4>Campo CPF</h4> Cadastre os 11 dígitos de seu CPF. Inclua somente números sem caracteres especiais Ex: 99999999999";
 		document.getElementById('assistente').innerHTML = mensagemCadastroCPF;
 	}
+	function focoNascimento(){
+		var timeUsuario = window.setTimeout(mensagemNascimento, 1000);
+	}
+	function mensagemNascimento(){
+		document.getElementById('assistente').style.color = 'white';
+		document.getElementById('assistente').style.backgroundColor = '#FE2E2E';
+
+		var mensagemNascimento ="<h4>Data de Nascimento</h4> Informe sua data de nascimento <br>Ex: dia/mês/ano";
+		document.getElementById('assistente').innerHTML = mensagemNascimento;
+	}
 
 
 
