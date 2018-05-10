@@ -3,6 +3,9 @@
 		<title>Grupo Seven Brasil</title>
 		<meta charset="UTF-8">
 		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">		
+		<?php
+		require "configuracoes.php";
+		?>
 <!--Icone-->
 		<link rel="shortcut icon" type="text/css" href="imagens/sistema.ico">
 <!--Bibliotecas-->
@@ -19,6 +22,12 @@
 				<div class="body_autenticacao_inicio">
 						<img src="imagens/logog7.png">
 				</div>
+				<div class="body_autenticacao_inicio_validador">
+					<?php
+					require "validador.php";
+					?>
+				</div>
+
 				<div class="body_autenticacao_meio">
 					<form id="autenticacao_form" method="POST" onsubmit="return validarAutenticacao()">
 						<input type="text" name="usuario" id="autenticacaoUsuario"class="autenticacao_campo"  maxlength="11" placeholder="Usuário" 
@@ -27,18 +36,18 @@
 							onfocus="focoSenha()" autocomplete="off"><br>
 						<input type="submit" class="autenticacao_submit" value="Entrar">
 					</form>
-					<form id="novoCadastro_form" method="POST" onsubmit="return validarCadastro()">
+					<form id="novoCadastro_form" method="POST" action="validador.php" onsubmit="return validarCadastro()">
 						<input onfocus="focoNomePF()"id="cadastroNomePF" type="text" name="nome_pf" class="autenticacao_campo" placeholder="Nome" autocomplete="off"><br>
 						<input onfocus="focoSobrenomePF()"id="cadastroSobrenomePF" type="text" name="sobrenome_pf" class="autenticacao_campo" placeholder="Sobrenome" autocomplete="off"><br>
 						<input onfocus="focoEmail()"id="cadastroEmailPF" type="email" name="email_pf" class="autenticacao_campo" placeholder="E-mail" autocomplete="off"><br>
 						<input onfocus="focoCadastroCPF()" id="cadastroUsuario" type="text" name="NovoUsuario" class="autenticacao_campo" maxlength="11" placeholder="CPF" autocomplete="off"><br>
-						<input onfocus="focoCadastroSenha()"id="cadastroSenha" type="password" name="senha" class="autenticacao_campo" placeholder="Senha" maxlength="6"autocomplete="off"><br>
+						<input onfocus="focoCadastroSenha()"id="cadastroSenha" type="password" name="Novasenha" class="autenticacao_campo" placeholder="Senha" maxlength="6"autocomplete="off"><br>
 						<input type="submit" id="submit_cadastro" class="autenticacao_submit" value="Cadastro">
 					</form>
-					<form id="esqueciSenha_form" method="POST" onsubmit="return validarEsqueci()">
-						<input onfocus="focoUsuario()" type="text" name="usuario" id="esqueciUsuario" class="autenticacao_campo" placeholder="CPF"  maxlength="11" autocomplete="off"><br>
-						<input onfocus="mensagemEmail()"type="email" name="email" id="esqueciEmail"class="autenticacao_campo" placeholder="E-mail"><br>
-						<input onfocus="focoNascimento()"type="date" name="nascimento" id="esqueciNascimento"class="autenticacao_campo" placeholder="Data de Nascimento" autocomplete="off"><br>
+					<form id="esqueciSenha_form" method="POST" action="validador.php" consubmit="return validarEsqueci()">
+						<input onfocus="focoUsuario()" type="text" name="esqueciUsuario" id="esqueciUsuario" class="autenticacao_campo" placeholder="CPF"  maxlength="11" autocomplete="off"><br>
+						<input onfocus="mensagemEmail()"type="email" name="esqueciEmail" id="esqueciEmail"class="autenticacao_campo" placeholder="E-mail"><br>
+						<input onfocus="focoNascimento()"type="date" name="esqueciNascimento" id="esqueciNascimento"class="autenticacao_campo" placeholder="Data de Nascimento" autocomplete="off"><br>
 						<input type="submit" id="submit_esqueci" class="autenticacao_submit" value="Nova Senha">
 					</form>
 				</div>

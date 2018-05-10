@@ -25,6 +25,14 @@ body{
 			.body_autenticacao_inicio img{
 				width: 150px;
 			}
+/*Inicio-validador*/
+
+		.body_autenticacao_inicio_validador{
+			color:red;
+			font-weight: bold;
+			text-align: center;
+			flex:0.2;
+		}
 /*Meio*/
 		.body_autenticacao_meio{
 			flex:2;

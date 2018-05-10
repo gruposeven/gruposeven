@@ -84,10 +84,6 @@
 		document.getElementById('assistente').innerHTML = mensagemNascimento;
 	}
 
-
-
-
-
 //transição entre formularios 
 function AcessarNovoCadastro(){
 	document.getElementById('autenticacao_form').style.display = 'none';
@@ -123,3 +119,4 @@ function AcessarEsqueciSenha(){
 function AcessarAutenticacao(){
 	window.location.href=window.location.href	
 }
+
