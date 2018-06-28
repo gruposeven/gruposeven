@@ -6,7 +6,7 @@
 		document.getElementById('assistente').style.color = 'white';
 		document.getElementById('assistente').style.backgroundColor = '#5882FA';
 
-		var mensagemUsuario ="<h4>Campo Usuário</h4>Informe neste campo os 11 números de seu CPF.Somente números, sem caracteres especiais";
+		var mensagemUsuario ="<h4>Campo Usuário</h4>Informe os 11 números de seu CPF.<br>Somente números, sem caracteres especiais";
 		document.getElementById('assistente').innerHTML = mensagemUsuario;
 	}
 
@@ -48,7 +48,7 @@
 		document.getElementById('assistente').style.color = 'white';
 		document.getElementById('assistente').style.backgroundColor = '#5882FA';
 
-		var mensagemEmail ="<h4>Campo E-mail</h4>Informe seu E-mail completo.<br> É um campo obrigatório, portanto caso não tenha e-mail, entre em contato conosco que providenciaremos.";
+		var mensagemEmail ="<h4>Campo E-mail</h4>Informe seu E-mail completo.<br>";
 		document.getElementById('assistente').innerHTML = mensagemEmail;
 	}
 

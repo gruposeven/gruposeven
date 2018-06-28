@@ -49,7 +49,7 @@ function validarCadastro(){
 						alert("Informe sua senha com 6 dígitos");
 						return false;
 					}else{
-						alert("Analise concluída - "+cadastroNomePF+" "+cadastroSobrenomePF+" "+cadastroUsuario+"");
+						alert("Analise concluída - "+cadastroNomePF+" "+cadastroSobrenomePF+"");
 						return true;
 
 					}
@@ -77,7 +77,7 @@ function validarEsqueci(){
 				alert("Informe sua data de nascimento corretamente");
 				return false
 			}else{
-				alert("Seus dados foram enviados. Aguarde o e-mail com a sua nova senha.");
+				alert("Seus dados foram enviados. Será encaminhado e-mail com a sua nova senha.");
 				return true;
 			}
 		}
