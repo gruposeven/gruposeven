@@ -14,9 +14,9 @@ $tempo_versao = date("d/m/Y H:i:s", $diferenca_tempo); // Tempo de duração da ve
 //Conexão ao Banco de Dados
 
 
-$dsn = 'mysql:dbname=sistemaseven;host=localhost'; //conexão banco de dados servidor interno (Versão BETA)
+//$dsn = 'mysql:dbname=sistemaseven;host=localhost'; //conexão banco de dados servidor interno (Versão BETA)
 
-//$dsn = "mysql:dbname=sistemaseven;host=sistemaseven.mysql.dbaas.com.br";//conexão banco de dados servidor externo
+$dsn = "mysql:dbname=sistemaseven;host=sistemaseven.mysql.dbaas.com.br";//conexão banco de dados servidor externo
 
 $dbuser = "sistemaseven";
 $dbpass = "g7811215";
