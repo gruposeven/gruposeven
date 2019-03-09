@@ -64,7 +64,7 @@
 			<div class="body_opcoes">
 				<button id="body_opcoes_novo" onclick="AcessarNovoCadastro()" class="body_opcoes_novo">Cadastre-se
 				</button>
-				<button id="body_opcoes_autenticacao" onclick="AcessarAutenticacao()" class="body_opcoes_autenticacao">Autenticação
+				<button id="body_opcoes_autenticacao" onclick="AcessarAutenticacao()" class="body_opcoes_autenticacao">Autenticar
 				</button>
 				<button id="body_opcoes_esqueci" onclick="AcessarEsqueciSenha()"class="body_opcoes_esqueci">Esqueci Senha
 				</button>

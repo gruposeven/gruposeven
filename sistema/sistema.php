@@ -20,10 +20,10 @@
 session_start();
 
 if(isset($_SESSION['usuario']) && ($_SESSION['usuario'] != "")){
-	$usuario=$SESSION['usuario'];
-	$nome_pf=$SESSION['nome_pf'];
-	$sobrenome_pf=$SESSION['sobrenome_pf'];
-	$email_pf=$SESSION['email_pf'];
+	$usuario=$_SESSION['usuario'];
+	$nome_pf=$_SESSION['nome_pf'];
+	$sobrenome_pf=$_SESSION['sobrenome_pf'];
+	$email_pf=$_SESSION['email_pf'];
 	
 }else{
 	header("Location:../index.php");

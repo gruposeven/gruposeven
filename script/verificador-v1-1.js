@@ -73,16 +73,12 @@ function validarEsqueci(){
 			alert("Informe seu E-mail corretamente");
 			return false;
 		}else{
-			if(esqueciNascimento ==""){
-				alert("Informe sua data de nascimento corretamente");
-				return false
-			}else{
 				alert("Seus dados foram enviados. Será encaminhado e-mail com a sua nova senha.");
 				return true;
 			}
 		}
 	}
-}
+
 //fechamento da função validar
 
 	

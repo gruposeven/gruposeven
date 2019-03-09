@@ -65,7 +65,7 @@ if(isset($_POST['nome_pf']) && ($_POST['nome_pf'] != "")
 	$NovoUsuario = addslashes($_POST['NovoUsuario']);
 	$Novasenha = md5(addslashes($_POST['Novasenha']));
 	
-	$sql="INSERT INTO pessoa_fisica SET nome_pf='$nome_pf', sobrenome_pf='$sobrenome_pf', email_pf='$email_pf', cpf='$NovoUsuario'";
+	$sql="INSERT INTO pessoafisica SET nome_pf='$nome_pf', sobrenome_pf='$sobrenome_pf', email_pf='$email_pf', cpf='$NovoUsuario'";
 	$sql=$pdo->query($sql);
 
 	$sql="INSERT INTO usuarios SET usuario='$NovoUsuario', senha='$Novasenha', data_criacao='$data_criacao'";
