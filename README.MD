@@ -9,5 +9,9 @@ Providencias: criação transições e autenticação do usuário.
 
 
 Providencia futura: App Grupo Seven Brasil com autenticação de login também pelo "facebook for developers" 
+
+11/03 - Reativando sistema
+
+
  
  
