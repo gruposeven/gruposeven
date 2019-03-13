@@ -1,0 +1,21 @@
+body{
+	background-image: url('../../imagens/banner2.jpg');
+	background-position: center;
+	background-size:cover;
+}
+nav{
+	font-size: 12px;
+}
+@media only screen and (min-width: 375px) and (max-width: 425px){
+	.navbar-toggler{
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 375px){
+	nav #titulo{
+	font-size: 12px;
+	}
+	.navbar-toggler{
+		margin-bottom: 10px;
+	}
+}
