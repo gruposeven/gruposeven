@@ -8,10 +8,9 @@ Realizações: Pagina de entrada e CSS completo.
 Providencias: criação transições e autenticação do usuário. 
 
 
-Providencia futura: App Grupo Seven Brasil com autenticação de login também pelo "facebook for developers" 
 
 11/03 - Reativando sistema
 11/03 - GIT FTP reativado 
 
- 
+ Atualizando Readme (2X)
  
